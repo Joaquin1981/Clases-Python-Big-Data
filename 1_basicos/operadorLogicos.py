@@ -17,4 +17,7 @@ es_multiplo_de_5 = numero % 5 == 0
 resultado = es_par or es_multiplo_de_5
 print(resultado)
 
+# negación
 
+esta_activo = True
+print(not esta_activo)
