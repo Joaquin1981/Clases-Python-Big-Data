@@ -15,4 +15,6 @@ print("Igual que:", resultado)
 
 # distinto
 resultado = numA != numB
+print("Distinto:", resultado)
+
 
