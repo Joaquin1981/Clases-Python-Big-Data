@@ -1,0 +1,20 @@
+{
+	"Input mas Float": {
+		"prefix": "infloat",
+		"body": [
+			"${1:variable} = float(input(\"Introduce ${2:valor}: \"))",
+			"print(f\"El valor de ${1:variable} es: {${1:variable}}\")"
+		],
+		"description": "Pide un numero decimal y lo imprime"
+	},
+	"Condicional Par": {
+		"prefix": "espar",
+		"body": [
+			"if ${1:numero} % 2 == 0:",
+			"\tprint(f\"El {${1:numero}} es par\")",
+			"else:",
+			"\tprint(f\"El {${1:numero}} es impar\")"
+		],
+		"description": "Crea un if/else para numeros pares"
+	}
+}

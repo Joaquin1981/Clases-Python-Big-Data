@@ -1,6 +1,3 @@
-inserted. Possible variables are:
-// $1, $2 for tab stops, $0 for the final cursos position, and $ {1:label}, ${2:another}
-
 
 {
 	"Input mas Float": {
