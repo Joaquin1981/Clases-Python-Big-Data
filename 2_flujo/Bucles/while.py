@@ -8,4 +8,10 @@ while j <=10:
     print(j)
     j = j + 1
     print(j)
-# falta información. Ver repositorio profe
+    if j% 2 != 0:
+        break
+
+else:
+    print('he terminado el bucle')
+
+
